@@ -62,7 +62,21 @@ DEFAULT_DNS = "8.8.8.8"
 3rd Pico - #kuhain sa <main-3-gas.py>
 4th Pico - #kuhain sa <main-4-smoke.py>
 
-E. Gawain (Connection) - Temperature
+E. Gawain (Connection) - 0.96 SPI Display
+1) Mag-save ng Table ng Wiring Connection.
+2) Tingnan ang label sa board ng components.
+# iba-iba ang code ng bawat Pico
+Pico >> 0.96 SPI Display
+Board1 (GPIO0) >> I2C0 SDA Pin
+Board2 (GPIO1) >> I2C0 SCL Pin
+Board38 (3V3 Out) >> VCC Pin
+Board36 (Ground) >> GND Pin
+3) Technique: Maghanap ng picture ng components sa Google.
+3.1) Raspberry Pi Pico W https://picow.pinout.xyz/
+3.2) 0.96 SPI Display Module (hackster.io/diyprojectslab/how-to-use-an-oled-display
+-with-raspberry-pi-pico-d9d9cb)
+  
+F. Gawain (Connection) - Temperature
 1) Mag-save ng Table ng Wiring Connection.
 2) Tingnan ang label sa board ng components.
 # iba-iba ang code ng bawat Pico
@@ -74,7 +88,7 @@ Board38 (3V3 Out) >> + Pin
 3.1) Raspberry Pi Pico W https://picow.pinout.xyz/
 3.2) DS18B20 Sensor Module (randomnerdtutorials.com/raspberry-pi-pico-ds18b20-micropython/)
 
-F. Gawain (Connection) - Flame (Fire)
+G. Gawain (Connection) - Flame (Fire)
 1) Mag-save ng Table ng Wiring Connection.
 2) Tingnan ang label sa board ng components.
 # iba-iba ang code ng bawat Pico
@@ -92,8 +106,28 @@ Board38 (3V3 Out) >> GND Pin
 -module-with-an-arduino-5-channel-flame-sensor-module-with-arduino/?srsltid
 =AfmBOoqSyU1M7e7qWXBo_5UkhEpPm_6SYfFUGwtDjSpe24cLMjVS-T07)
 
+H. Gawain (Connection) - MQ9 Gas
+1) Mag-save ng Table ng Wiring Connection.
+2) Tingnan ang label sa board ng components.
+# iba-iba ang code ng bawat Pico
+Pico >> MQ9 Gas
+Board31 (GPIO26) >> AO pin
+Board36 (Ground) >> Gnd Pin
+Board38 (3V3 Out) >> Vcc Pin
+3) Technique: Maghanap ng picture ng components sa Google.
+3.1) Raspberry Pi Pico W https://picow.pinout.xyz/
+3.2) MQ9 Gas Sensor Module (makerph.com/product/mq-9-gas-sensor-module-carbon-monoxide
+-flamable-gasses/?srsltid=AfmBOorMDJXhDeMyaUvE3uSYWhAmErk_j4eU6b1GAJvbPqlKB_aK__Oh)
 
-
-
-
-
+I. Gawain (Connection) - MQ2 Smoke
+1) Mag-save ng Table ng Wiring Connection.
+2) Tingnan ang label sa board ng components.
+# iba-iba ang code ng bawat Pico
+Pico >> MQ2 Smoke
+Board31 (GPIO26) >> AO pin
+Board36 (Ground) >> Gnd Pin
+Board38 (3V3 Out) >> Vcc Pin
+3) Technique: Maghanap ng picture ng components sa Google.
+3.1) Raspberry Pi Pico W https://picow.pinout.xyz/
+3.2) MQ2 Smoke Sensor Module (docs.sunfounder.com/projects/umsk/en/latest/04_pi_pico
+/pico_lesson04_mq2.html)
