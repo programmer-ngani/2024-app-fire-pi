@@ -74,7 +74,23 @@ Board38 (3V3 Out) >> + Pin
 3.1) Raspberry Pi Pico W https://picow.pinout.xyz/
 3.2) DS18B20 Sensor Module (randomnerdtutorials.com/raspberry-pi-pico-ds18b20-micropython/)
 
-
+F. Gawain (Connection) - Flame (Fire)
+1) Mag-save ng Table ng Wiring Connection.
+2) Tingnan ang label sa board ng components.
+# iba-iba ang code ng bawat Pico
+Pico >> Flame (Fire)
+Board24 (GPIO18) >> D1 Pin
+Board25 (GPIO19) >> D2 Pin
+Board26 (GPIO20) >> D3 Pin
+Board27 (GPIO21) >> D4 Pin
+Board29 (GPIO22) >> D5 Pin
+Board36 (Ground) >> VCC Pin
+Board38 (3V3 Out) >> GND Pin
+3) Technique: Maghanap ng picture ng components sa Google.
+3.1) Raspberry Pi Pico W https://picow.pinout.xyz/
+3.2) Flame (Fire) Sensor Module (srituhobby.com/how-to-use-the-5-way-flame-sensor
+-module-with-an-arduino-5-channel-flame-sensor-module-with-arduino/?srsltid
+=AfmBOoqSyU1M7e7qWXBo_5UkhEpPm_6SYfFUGwtDjSpe24cLMjVS-T07)
 
 
 
