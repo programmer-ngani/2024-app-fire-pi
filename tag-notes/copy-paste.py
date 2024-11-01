@@ -73,9 +73,13 @@ Board38 (3V3 Out) >> VCC Pin
 Board36 (Ground) >> GND Pin
 3) Technique: Maghanap ng picture ng components sa Google.
 3.1) Raspberry Pi Pico W https://picow.pinout.xyz/
-3.2) 0.96 SPI Display Module (hackster.io/diyprojectslab/how-to-use-an-oled-display
+3.2) 0.96 SPI Display Module (diyprojectslab.com/oled-display-with-raspberry-pi-pico/)
+#oled = SSD1306_I2C(WIDTH, HEIGHT, I2C(0))
+3.3) 0.96 SPI Display Module (hackster.io/diyprojectslab/how-to-use-an-oled-display
 -with-raspberry-pi-pico-d9d9cb)
-  
+#i2c=I2C(0,scl=Pin(1),sda=Pin(0),freq=200000)
+#oled = SSD1306_I2C(WIDTH, HEIGHT, i2c)
+
 F. Gawain (Connection) - Temperature
 1) Mag-save ng Table ng Wiring Connection.
 2) Tingnan ang label sa board ng components.
